@@ -1,6 +1,8 @@
 import streamlit as st
 import pickle
 import pandas as pd
+import sklearn
+
 # initialize section
 with open('trained_model', 'rb') as f:
     model = pickle.load(f)
